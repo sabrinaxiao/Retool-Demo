@@ -7,13 +7,12 @@
   title="Page 1"
   urlSlug=""
 >
-  <SqlQueryUnified
+
+  <RESTQuery
     id="query1"
-    query={include("../lib/query1.sql", "string")}
-    resourceDisplayName="retool_db"
-    resourceName="80933a0c-6c76-4f75-be53-f15e27c7a697"
+    resourceDisplayName="Test Retool API"
+    resourceName="245e2845-a8ff-4c63-850b-d27c00ae969d"
     resourceTypeOverride=""
-    warningCodes={[]}
   />
   <Frame
     id="$main"
@@ -31,16 +30,16 @@
       defaultSelectedRow={{ mode: "index", indexType: "display", index: 0 }}
       emptyMessage="No rows found"
       enableSaveActions={true}
-      primaryKeyColumnId="2e19c"
-      rowHeight="medium"
+      primaryKeyColumnId="cf7b8"
       showBorder={true}
       showFooter={true}
       showHeader={true}
       toolbarPosition="bottom"
     >
       <Column
-        id="2e19c"
+        id="cf7b8"
         alignment="right"
+        editable={false}
         editableOptions={{ showStepper: true }}
         format="decimal"
         formatOptions={{ showSeparators: true, notation: "standard" }}
@@ -53,11 +52,23 @@
         summaryAggregationMode="none"
       />
       <Column
-        id="06ca1"
+        id="861e2"
         alignment="left"
         format="string"
         groupAggregationMode="none"
-        key="name"
+        key="Date"
+        label="Date"
+        placeholder="Enter value"
+        position="center"
+        size={100}
+        summaryAggregationMode="none"
+      />
+      <Column
+        id="e470c"
+        alignment="left"
+        format="string"
+        groupAggregationMode="none"
+        key="Name"
         label="Name"
         placeholder="Enter value"
         position="center"
@@ -65,12 +76,12 @@
         summaryAggregationMode="none"
       />
       <Column
-        id="553af"
+        id="05e03"
         alignment="left"
         format="string"
         groupAggregationMode="none"
-        key="location"
-        label="Location"
+        key="User ID"
+        label="User id"
         placeholder="Enter value"
         position="center"
         size={100}
@@ -95,5 +106,6 @@
         type="custom"
       />
     </Table>
+    <Button id="button1" text="Button" />
   </Frame>
 </Screen>
