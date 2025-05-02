@@ -7,6 +7,7 @@
   title="Page 1"
   urlSlug=""
 >
+
   <RESTQuery
     id="query1"
     resourceDisplayName="Test Retool API"
@@ -97,31 +98,13 @@
         icon="bold/interface-download-button-2"
         label="Download"
         type="custom"
-      >
-        <Event
-          event="clickToolbar"
-          method="exportData"
-          pluginId="table1"
-          type="widget"
-          waitMs="0"
-          waitType="debounce"
-        />
-      </ToolbarButton>
+      />
       <ToolbarButton
         id="4d"
         icon="bold/interface-arrows-round-left"
         label="Refresh"
         type="custom"
-      >
-        <Event
-          event="clickToolbar"
-          method="refresh"
-          pluginId="table1"
-          type="widget"
-          waitMs="0"
-          waitType="debounce"
-        />
-      </ToolbarButton>
+      />
     </Table>
     <Button id="button1" text="Button" />
   </Frame>
