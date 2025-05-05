@@ -11,10 +11,27 @@
     "height": 1,
     "width": 2
   },
+  "button4": {
+    "row": 11.2,
+    "col": 3,
+    "height": 1,
+    "width": 2
+  },
   "table1": {
     "row": 1.2,
     "col": 1,
     "height": 8,
     "width": 8
+  },
+  "text1": {
+    "row": 11.4,
+    "col": 6,
+    "height": 1
+  },
+  "textInput1": {
+    "row": 12.4,
+    "col": 2,
+    "height": 0.2,
+    "width": 4
   }
 }

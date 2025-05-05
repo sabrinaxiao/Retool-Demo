@@ -125,5 +125,12 @@
     </Table>
     <Button id="button1" text="Button" />
     <Button id="button3" text="Button" />
+    <Button id="button4" text="Button" />
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
+    <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
   </Frame>
 </Screen>
