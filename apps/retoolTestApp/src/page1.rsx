@@ -10,7 +10,7 @@
   <RESTQuery
     id="query1"
     resourceDisplayName="Test Retool API"
-    resourceName="1d84d6f5-ad78-4f58-bd6a-b391ad73aa36"
+    resourceName="245e2845-a8ff-4c63-850b-d27c00ae969d"
     resourceTypeOverride=""
   />
   <Frame
@@ -21,12 +21,6 @@
     padding="8px 12px"
     type="main"
   >
-    <Text
-      id="text1"
-      style={{ fontSize: "h4Font", fontWeight: "h4Font", fontFamily: "h4Font" }}
-      value="**PROD app instance**"
-      verticalAlign="center"
-    />
     <Table
       id="table1"
       cellSelection="none"
@@ -130,5 +124,6 @@
       </ToolbarButton>
     </Table>
     <Button id="button1" text="Button" />
+    <Button id="button2" text="Button" />
   </Frame>
 </Screen>
