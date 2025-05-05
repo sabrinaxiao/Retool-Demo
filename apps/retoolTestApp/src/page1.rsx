@@ -10,7 +10,7 @@
   <RESTQuery
     id="query1"
     resourceDisplayName="Test Retool API"
-    resourceName="245e2845-a8ff-4c63-850b-d27c00ae969d"
+    resourceName="e9e1da7f-d4c5-46da-899a-4c350c29ab26"
     resourceTypeOverride=""
   />
   <Frame
