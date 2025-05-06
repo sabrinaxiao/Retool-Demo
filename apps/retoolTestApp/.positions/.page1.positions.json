@@ -17,6 +17,12 @@
     "height": 1,
     "width": 2
   },
+  "button4": {
+    "row": 11.6,
+    "col": 5,
+    "height": 1,
+    "width": 2
+  },
   "numberInput1": {
     "row": 11.2,
     "col": 1,

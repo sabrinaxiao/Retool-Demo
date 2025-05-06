@@ -136,5 +136,6 @@
       showStepper={true}
       value={0}
     />
+    <Button id="button4" text="Button" />
   </Frame>
 </Screen>
