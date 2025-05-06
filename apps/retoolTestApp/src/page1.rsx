@@ -126,10 +126,15 @@
     <Button id="button1" text="Button" />
     <Button id="button2" text="Button" />
     <Button id="button3" text="Button" />
-    <Text
-      id="text1"
-      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
-      verticalAlign="center"
+    <NumberInput
+      id="numberInput1"
+      currency="USD"
+      inputValue={0}
+      labelPosition="top"
+      placeholder="Enter value"
+      showSeparators={true}
+      showStepper={true}
+      value={0}
     />
   </Frame>
 </Screen>
