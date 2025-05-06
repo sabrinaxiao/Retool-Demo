@@ -17,10 +17,9 @@
     "height": 1,
     "width": 2
   },
-  "table1": {
-    "row": 1.4,
-    "col": 1,
-    "height": 8,
-    "width": 8
-  }
-}
+  "numberInput1": {
+    "row": 11.4,
+    "col": 2,
+    "height": 0.2,
+    "width": 4
+  },
