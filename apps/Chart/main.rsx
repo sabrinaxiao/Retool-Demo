@@ -165,7 +165,7 @@
           />
         </ToolbarButton>
       </Table>
-      <Button id="button1" text="Button" />
+      <Button id="button1" text="Test" />
     </ModuleContainerWidget>
   </Frame>
 </App>
