@@ -13,8 +13,8 @@ jobs:
       - name: Test Deploy Commit
         run: |
           COMMIT_SHA="${{ github.event.pull_request.head.sha }}"
-          echo "Test deploying commit $COMMIT_SHA on https://dev.sabrinaxiao01.retool.com.retool.com/"
-          response=$(curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer ${{ secrets.RETOOL_TEST_DEPLOY_API_KEY }}" -d "{\"deploy_params\": {\"commit_sha\": \"$COMMIT_SHA\"}}" https://dev.sabrinaxiao01.retool.com.retool.com/api/v2/source_control/test_deploy)
+          echo "Test deploying commit $COMMIT_SHA on https://dev.sabrinaxiao01.retool.com/"
+          response=$(curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer ${{ secrets.RETOOL_TEST_DEPLOY_API_KEY }}" -d "{\"deploy_params\": {\"commit_sha\": \"$COMMIT_SHA\"}}" https://dev.sabrinaxiao01.retool.com/api/v2/source_control/test_deploy)
           echo "API Response:"
           echo "$response"
           if [[ $(echo $response | jq '.data.success') != "true" ]]; then
