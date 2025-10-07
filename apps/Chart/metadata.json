@@ -5,7 +5,7 @@
   "appTemplate": {
     "appMaxWidth": "100%",
     "isGlobalWidget": true,
-    "version": "3.250.0",
+    "version": "3.284.0",
     "experimentalDataTabEnabled": true
   }
 }
