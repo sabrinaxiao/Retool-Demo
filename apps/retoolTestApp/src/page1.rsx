@@ -146,6 +146,7 @@
       showStepper={true}
       value={0}
     />
+    <Text id="text1" value="👋 **Hello there!**" verticalAlign="center" />
     <Button id="button2" text="Testing Branch Merge" />
     <Button id="button3" text="Button" />
   </Frame>
