@@ -131,6 +131,11 @@
         />
       </ToolbarButton>
     </Table>
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <NumberInput
       id="numberInput1"
       currency="USD"
@@ -142,10 +147,5 @@
       value={0}
     />
     <Button id="button2" text="Testing" />
-    <Text
-      id="text1"
-      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
-      verticalAlign="center"
-    />
   </Frame>
 </Screen>
