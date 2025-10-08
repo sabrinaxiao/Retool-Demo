@@ -131,6 +131,11 @@
         />
       </ToolbarButton>
     </Table>
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <NumberInput
       id="numberInput1"
       currency="USD"
@@ -143,5 +148,6 @@
     />
     <Text id="text1" value="👋 **Hello there!**" verticalAlign="center" />
     <Button id="button2" text="Testing Branch Merge" />
+    <Button id="button3" text="Button" />
   </Frame>
 </Screen>
