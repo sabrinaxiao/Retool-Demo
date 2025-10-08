@@ -29,11 +29,6 @@
     padding="8px 12px"
     type="main"
   >
-    <Text
-      id="text1"
-      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
-      verticalAlign="center"
-    />
     <Table
       id="table1"
       cellSelection="none"
@@ -136,6 +131,11 @@
         />
       </ToolbarButton>
     </Table>
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <NumberInput
       id="numberInput1"
       currency="USD"
@@ -147,5 +147,6 @@
       value={0}
     />
     <Button id="button2" text="Testing Branch Merge" />
+    <Button id="button3" text="Button" />
   </Frame>
 </Screen>
