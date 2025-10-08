@@ -6,13 +6,20 @@
   browserTitle=""
   title="Page 1"
   urlSlug=""
-  uuid="4922d631-6bec-450d-8e79-54c81e8fa15c"
+  uuid="8cf1e0a1-7ec9-4ae3-9147-5ac0a1c56208"
 >
   <RESTQuery
     id="query1"
     resourceDisplayName="Test Retool API"
     resourceName="245e2845-a8ff-4c63-850b-d27c00ae969d"
     resourceTypeOverride=""
+  />
+  <RetoolAIQuery
+    id="query2"
+    notificationDuration={4.5}
+    resourceDisplayName="retool_ai"
+    resourceName="retool_ai"
+    showSuccessToaster={false}
   />
   <Frame
     id="$main"
@@ -126,5 +133,12 @@
     </Table>
     <Button id="button1" text="Button" />
     <Button id="button2" text="Testing" />
+    <Module
+      id="chart1"
+      heightType="fixed"
+      name="Chart"
+      overflowType="hidden"
+      pageUuid="99e4b284-76fa-11f0-9b12-77f0b979e16b"
+    />
   </Frame>
 </Screen>
