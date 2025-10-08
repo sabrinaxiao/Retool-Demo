@@ -142,5 +142,10 @@
       value={0}
     />
     <Button id="button2" text="Testing" />
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
   </Frame>
 </Screen>
