@@ -46,12 +46,11 @@
       <Column
         id="cf7b8"
         alignment="right"
-        editable="false"
+        editable={false}
         editableOptions={{ showStepper: true }}
         format="decimal"
         formatOptions={{ showSeparators: true, notation: "standard" }}
         groupAggregationMode="sum"
-        hidden="true"
         key="id"
         label="ID"
         placeholder="Enter value"
@@ -132,14 +131,11 @@
         />
       </ToolbarButton>
     </Table>
-    <Button id="button1" text="Button" />
     <Button id="button2" text="Testing" />
-    <Module
-      id="chart1"
-      heightType="fixed"
-      name="Chart"
-      overflowType="hidden"
-      pageUuid="99e4b284-76fa-11f0-9b12-77f0b979e16b"
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
     />
   </Frame>
 </Screen>
