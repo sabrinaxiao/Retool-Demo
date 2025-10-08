@@ -6,6 +6,7 @@
   browserTitle=""
   title="Page 1"
   urlSlug=""
+  uuid="bc2eb4f3-17cc-4dcd-9cc5-ea78313df1c6"
 >
   <RESTQuery
     id="query1"
