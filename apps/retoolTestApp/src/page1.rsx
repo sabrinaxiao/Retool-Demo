@@ -137,5 +137,69 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
+    <Form
+      id="form1"
+      footerPadding="4px 12px"
+      headerPadding="4px 12px"
+      initialData="{{ table1.selectedRow }}"
+      padding="12px"
+      requireValidation={true}
+      resetAfterSubmit={true}
+      scroll={true}
+      showBody={true}
+      showFooter={true}
+      showHeader={true}
+    >
+      <Header>
+        <Text id="formTitle1" value="#### Form title" verticalAlign="center" />
+      </Header>
+      <Body>
+        <NumberInput
+          id="idInput"
+          currency="USD"
+          formDataKey="id"
+          inputValue={0}
+          label="ID"
+          labelPosition="top"
+          placeholder="Enter value"
+          required={true}
+          showSeparators={true}
+          showStepper={true}
+          value={0}
+        />
+        <TextInput
+          id="dateInput"
+          formDataKey="Date"
+          label="Date"
+          labelPosition="top"
+          placeholder="Enter value"
+          required={true}
+        />
+        <TextInput
+          id="nameInput"
+          formDataKey="Name"
+          label="Name"
+          labelPosition="top"
+          placeholder="Enter value"
+          required={true}
+        />
+        <TextInput
+          id="userIdInput"
+          formDataKey="User ID"
+          label="User id"
+          labelPosition="top"
+          placeholder="Enter value"
+          required={true}
+        />
+      </Body>
+      <Footer>
+        <Button
+          id="formButton1"
+          submit={true}
+          submitTargetId="form1"
+          text="Submit"
+        />
+      </Footer>
+    </Form>
   </Frame>
 </Screen>
