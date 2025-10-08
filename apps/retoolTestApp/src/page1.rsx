@@ -46,11 +46,12 @@
       <Column
         id="cf7b8"
         alignment="right"
-        editable={false}
+        editable="false"
         editableOptions={{ showStepper: true }}
         format="decimal"
         formatOptions={{ showSeparators: true, notation: "standard" }}
         groupAggregationMode="sum"
+        hidden="true"
         key="id"
         label="ID"
         placeholder="Enter value"
