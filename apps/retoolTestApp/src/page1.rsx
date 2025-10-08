@@ -131,6 +131,16 @@
         />
       </ToolbarButton>
     </Table>
+    <NumberInput
+      id="numberInput1"
+      currency="USD"
+      inputValue={0}
+      labelPosition="top"
+      placeholder="Enter value"
+      showSeparators={true}
+      showStepper={true}
+      value={0}
+    />
     <Button id="button2" text="Testing" />
     <Text
       id="text1"
