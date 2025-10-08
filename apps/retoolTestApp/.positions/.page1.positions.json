@@ -1,6 +1,6 @@
 {
   "button2": {
-    "row": 9.6,
+    "row": 10.2,
     "col": 3,
     "height": 1,
     "width": 2
@@ -12,9 +12,14 @@
     "width": 2
   },
   "table1": {
-    "row": 1.4,
+    "row": 0.6,
     "col": 1,
     "height": 8,
     "width": 10
+  },
+  "text1": {
+    "row": 9.4,
+    "col": 8,
+    "height": 0.6
   }
 }
