@@ -1,2 +1,5 @@
 version: 1.0.0
 name: new
+apps:
+  - uuid: 8eac7c08-a463-11f0-b008-8349bac55fcc
+    release: latest
