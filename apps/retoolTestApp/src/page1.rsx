@@ -147,5 +147,6 @@
       value={0}
     />
     <Button id="button2" text="Testing Branch Merge" />
+    <Button id="button3" text="Button" />
   </Frame>
 </Screen>
