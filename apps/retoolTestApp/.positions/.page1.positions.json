@@ -5,16 +5,15 @@
     "height": 1,
     "width": 2
   },
-  "chart1": {
-    "row": 11.2,
-    "col": 1,
-    "height": 12,
-    "width": 11
-  },
   "table1": {
     "row": 1.4,
     "col": 1,
     "height": 8,
-    "width": 10
+    "width": 8
+  },
+  "text1": {
+    "row": 9.6,
+    "col": 6,
+    "height": 1
   }
 }
