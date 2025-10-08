@@ -6,7 +6,7 @@
   browserTitle=""
   title="Page 1"
   urlSlug=""
-  uuid="bc2eb4f3-17cc-4dcd-9cc5-ea78313df1c6"
+  uuid="4922d631-6bec-450d-8e79-54c81e8fa15c"
 >
   <RESTQuery
     id="query1"
@@ -125,6 +125,6 @@
       </ToolbarButton>
     </Table>
     <Button id="button1" text="Button" />
-    <Button id="button2" text="Button" />
+    <Button id="button2" text="Testing" />
   </Frame>
 </Screen>
