@@ -12,13 +12,14 @@
     "width": 2
   },
   "table1": {
-    "row": 0.8,
+    "row": 0.6,
+    "col": 1,
     "height": 8,
-    "width": 7
+    "width": 10
   },
   "text1": {
-    "row": 9.6,
-    "col": 6,
+    "row": 10.6,
+    "col": 1,
     "height": 0.6
   }
 }
