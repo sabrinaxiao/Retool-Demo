@@ -3,7 +3,5 @@ name: dev
 apps:
   - uuid: 0efb5d44-21e6-11f0-b96e-23b4db32229f
     release: 0.2.5
-  - uuid: 8eac7c08-a463-11f0-b008-8349bac55fcc
-    release: 0.1.1
   - uuid: c6f7647a-94bd-11f0-81c6-5f85cd0dfcfc
     release: latest
