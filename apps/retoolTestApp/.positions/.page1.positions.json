@@ -11,9 +11,14 @@
     "width": 2
   },
   "table1": {
-    "row": 1.4,
+    "row": 0.6,
     "col": 1,
     "height": 8,
     "width": 10
+  },
+  "text1": {
+    "row": 8.8,
+    "col": 8,
+    "height": 0.6
   }
 }
