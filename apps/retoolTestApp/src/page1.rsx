@@ -132,7 +132,7 @@
       </ToolbarButton>
     </Table>
     <Button id="button1" text="Button" />
-    <Button id="button2" text="Button" />
+    <Button id="button2" text="Testing" />
     <Module
       id="chart1"
       heightType="fixed"
