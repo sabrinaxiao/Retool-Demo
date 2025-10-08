@@ -141,6 +141,6 @@
       showStepper={true}
       value={0}
     />
-    <Button id="button2" text="Testing" />
+    <Button id="button2" text="Testing Branch Merge" />
   </Frame>
 </Screen>

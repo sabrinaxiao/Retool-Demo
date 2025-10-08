@@ -1,9 +1,8 @@
 {
   "button2": {
-    "row": 9.6,
+    "row": 9.8,
     "col": 3,
-    "height": 1,
-    "width": 2
+    "height": 1.2
   },
   "numberInput1": {
     "row": 9.6,
